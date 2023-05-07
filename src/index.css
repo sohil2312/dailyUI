@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #30cfd0;
+  background-image: linear-gradient(315deg, #30cfd0 0%, #330867 74%);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.container {
+  margin: 50px auto;
+  width: 80%;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 20px;
+}
+
+img {
+  width: 300px;
+}
+
+.roadmap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.roadmap li {
+  flex-basis: 45%;
+  padding: 10px;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.buy-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.buy-steps li {
+  flex-basis: 45%;
+  padding: 10px;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.uniswap-buy-button {
+  display: inline-block;
+  background-color: #1e88e5;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.uniswap-buy-button:hover {
+  background-color: #1565c0;
+}
+
+
+.uniswap-buy-button {
+  display: inline-block;
+  background-color: #1e88e5;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.uniswap-buy-button:hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+}
