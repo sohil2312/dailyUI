@@ -42,3 +42,7 @@ button{
     background-color: #335986;
     color: #FEFFFD;
 }
+.digits:hover{
+    background-color: #FEFFFD;
+    color: #335986;
+}
